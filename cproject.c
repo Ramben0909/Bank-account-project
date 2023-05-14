@@ -23,11 +23,12 @@ int main(){
     char option;
     char myp[50] = "Ritam Bhattacharya_B_21";
     int j=0;
+    printf("\n***** Welcome to Bank Application *****\n");
+    printf("\nThis demo program is brought you by %s\n",myp);
     while (j>=0){
-       printf("\n***** Welcome to Bank Application *****\n");
-       printf("\nThis demo program is brought you by %s",myp);
+       printf("Choose any option given below:->");
        display_options();
-       printf("Please enter any options (1/2/3/4/5/6) ");
+       printf("Please enter any (1/2/3/4/5/6) ");
        printf("to continue : ");
         option = getch();
         printf("%c \n", option);
